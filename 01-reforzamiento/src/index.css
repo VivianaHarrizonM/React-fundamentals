@@ -24,15 +24,20 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  display: flex;               /* contenedor flex */
+  justify-content: center;     /* centra horizontal */
+  align-items: center;         /* centra vertical */
+  flex-direction: column;      /* opcional, si quieres varios elementos en columna */
   min-width: 320px;
   min-height: 100vh;
+  background-color: #242424;
+  text-align: center;          /* centra texto */
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 0.5em 0;
 }
 
 button {
@@ -45,6 +50,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-top: 1em;             /* separa del h1 */
 }
 button:hover {
   border-color: #646cff;
