@@ -1,0 +1,41 @@
+# React - Fernando Herrera Course (Udemy)
+
+This repository contains the projects and exercises developed during the **React** course taught by [Fernando Herrera](https://www.udemy.com/user/fernando-herrera/) on Udemy.
+The goal is to learn the fundamentals of React and its modern tools for web application development.
+
+---
+
+## 🚀 Technologies Used
+- **React**
+- **JavaScript (ES6+)**
+- **Vite / Create React App**- **React Router**
+- **Hooks (useState, useEffect, useContext, etc.)**
+- **Context API**
+- **Fetch API / Axios**
+- **CSS / Tailwind / Bootstrap**
+
+---
+
+## 📂 Course Content
+Throughout the course, projects and practical exercises are developed such as:
+
+1. **React Fundamentals**
+- JSX, components, and props
+- State and events
+2. **Essential Hooks**
+- `useState`, `useEffect`, `useRef`, `useMemo`, `useCallback`
+3. **Custom Hooks**
+- Creating and reusing logic
+4. **React Router**
+- Public and private routes
+- Dynamic navigation
+5. **Context API**
+- Global state management
+- Basic authentication
+6. **CRUD with REST API**
+- Consuming external APIs
+- Handling HTTP requests
+7. **Final projects**
+- Complete applications integrating everything learned
+
+---
