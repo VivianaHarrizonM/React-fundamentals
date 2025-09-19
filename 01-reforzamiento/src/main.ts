@@ -7,9 +7,11 @@ import './index.css';
 // import './bases/06-obj-destructuring';
 // import './bases/07-array-destructuring';
 // import './data/heroes.data';
-import './bases/08-imp-exp';
-import { getHeroByOwner } from './bases/08-imp-exp';
-import { Owner } from './data/heroes.data';
+// import './bases/08-imp-exp';
+// import { getHeroByOwner } from './bases/08-imp-exp';
+// import { Owner } from './data/heroes.data';
+// import './bases/09-promises';
+import './bases/10-fetch-api';
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -17,4 +19,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1>Hola Mundo 😜</h1>
   </div>
 `
-console.log(getHeroByOwner(Owner.Marvel));
+// console.log(getHeroByOwner(Owner.Marvel));
