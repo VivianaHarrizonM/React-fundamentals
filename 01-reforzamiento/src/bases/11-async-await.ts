@@ -22,7 +22,7 @@ const createImageInsideDOM = (url: string) => {
 }
 
 
-const getRandomGifUrl = async ():Promise<String> => {
+const getRandomGifUrl = async ():Promise<string> => {
   const response = await fetch(`https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`);
 
   const { data }:GiphyRandomResponse = await response.json();
@@ -30,5 +30,7 @@ const getRandomGifUrl = async ():Promise<String> => {
   return data.images.original.url;
 }
 
-getRandomGifUrl().then(createImageInsideDOM());
+getRandomGifUrl().then(createImageInsideDOM);
+
+
 
