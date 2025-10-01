@@ -6,14 +6,14 @@ interface Props {
   name: string;
   quantity?: number
 }
-const ItemCounter = ({name, quantity = 1} : Props) => {
+export const ItemCounter = ({name, quantity = 1} : Props) => {
 
   const [count, setCount] = useState(quantity);
 
   const handleAdd  = () =>{
     setCount(count + 1);
   }
-  const hadleSubstract= () =>{
+  const handleSubtract = () =>{
     if( count == 1)return;
     
     setCount(count - 1);
@@ -35,7 +35,6 @@ const ItemCounter = ({name, quantity = 1} : Props) => {
       <span className="item-text"
       style={{
         color: count == 1 ? 'red': 'black',
-        
       }}
       >
         {name}
@@ -46,9 +45,7 @@ const ItemCounter = ({name, quantity = 1} : Props) => {
         // }}
         onClick={handleAdd }>+1</button>
       <span>{count}</span>
-      <button onClick={hadleSubstract}>-1</button>
+      <button onClick={handleSubtract }>-1</button>
     </section>
   )
   }
-
-export default ItemCounter;

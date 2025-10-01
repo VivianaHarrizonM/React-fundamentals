@@ -1,4 +1,5 @@
-import ItemCounter from "./shopping-card/ItemCounter";
+import { ItemCounter } from "./shopping-card/ItemCounter";
+
 
 interface ItemInCart{
   productName: string;
@@ -13,9 +14,9 @@ const itemsInCart: ItemInCart[] = [
 ]
 
 
-export default function FirstStepsApp() {
+export function FirstStepsApp() {
   return (
-    <div>
+    <>
       <h1>Carrito de compras</h1>
       {
         itemsInCart.map(({productName, quantity}) => (
@@ -26,7 +27,7 @@ export default function FirstStepsApp() {
       <ItemCounter name="Pro Controller" quantity={2}/>
       <ItemCounter name="Super Smash" quantity={3}/>
       <ItemCounter name="Super Mario" quantity={1}/> */}
-    </div>
+    </>
     
   );
   
