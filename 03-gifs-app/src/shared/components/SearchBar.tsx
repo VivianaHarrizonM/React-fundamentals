@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 interface Props  {
   placeholder?: string
   onQuery: (query: string ) => void;
+  
 }
 
 export const SearchBar = ({placeholder = 'Buscar', onQuery}: Props) => {
