@@ -5,3 +5,4 @@ const producto11 = new String("Monitor 53 pulgadas");
 console.log(producto);
 console.log(producto1);
 console.log(producto11);
+
