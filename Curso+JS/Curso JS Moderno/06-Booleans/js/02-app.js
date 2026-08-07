@@ -1,0 +1,8 @@
+
+const boolean = true;
+const boolean1 = false;
+
+console.log(boolean === boolean1);
+
+console.log(boolean === true);
+console.log(boolean1 === "true");
