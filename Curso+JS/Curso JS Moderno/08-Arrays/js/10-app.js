@@ -15,4 +15,4 @@ const nuevoArreglo2 = carrito.forEach(function(producto) {
 });
 
 console.table(nuevoArreglo);
-console.log(nuevoArreglo2)
+console.log(nuevoArreglo2);
